@@ -1,0 +1,140 @@
+{
+    "toilettage" : [
+        {
+            "id" : "toilettage-complet-petit-chien",
+            "number" : "one",
+            "type" : "Petit chien",
+            "taille" : "Chien de moins de 35cm",
+            "prix" : "40€",
+            "exemple" : "Exemple : Coton Tulear",
+            "lien" : "",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, le bain, le séchage et la coupe ou la tonte.",
+            "extra" : []
+        },
+        {
+            "id" : "toilettage-complet-moyen-chien",
+            "number" : "two",
+            "type" : "Moyen chien",
+            "taille" : "Chien de 35cm à 45cm",
+            "prix" : "50€",
+            "exemple" : "Exemple : Cocker",
+            "lien" : "",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, le bain, le séchage et la coupe ou la tonte.",
+            "extra" : []
+        },
+        {
+            "id" : "toilettage-complet-grand-chien",
+            "number" : "three",
+            "type" : "Grand chien",
+            "taille" : "Chien de 45cm à 60cm",
+            "prix" : "70€",
+            "exemple" : "Exemple : Berger Australien ",
+            "lien" : "",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, le bain, le séchage et la coupe ou la tonte.",
+            "extra" : []
+        },
+        {
+            "id" : "toilettage-complet-tres-grand-chien",
+            "number" : "four",
+            "type" : "Très grand chien",
+            "taille" : "Chien de +60cm",
+            "prix" : "80€",
+            "exemple" : "Exemple : Berger Blanc Suisse",
+            "lien" : "",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, le bain, le séchage et la coupe ou la tonte.",
+            "extra" : []
+        }
+    ],
+    "court" : [
+        {
+            "id" : "brin-de-toilette-poils-court-petit-chien",
+            "number" : "one",
+            "type" : "Petit chien",
+            "taille" : "Chien de moins de 35cm",
+            "prix" : "20€",
+            "exemple" : "Exemple : Coton Tulear",
+            "lien" : "",
+            "soins" : "Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, le bain, et le séchage.",
+            "extra" : ["Un supplément de 5€ à 15€ peut vous être demandé dans la cas suivant : <br>", "- présence des parasites <br>", "- pelage très très emmêler<br>", "- chien agressif<br>", "- soin spécifique nécessaire" ]
+        },
+        {
+            "id" : "brin-de-toilette-poils-court-moyen-chien",
+            "number" : "two",
+            "type" : "Moyen chien",
+            "taille" : "Chien de 35cm à 45cm",
+            "prix" : "30€",
+            "exemple" : "Exemple : Cocker",
+            "lien" : "",
+            "soins" : "Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, le bain, et le séchage.",
+            "extra" : ["Un supplément de 5€ à 15€ peut vous être demandé dans la cas suivant : <br>", "- présence des parasites <br>", "- pelage très très emmêler<br>", "- chien agressif<br>", "- soin spécifique nécessaire" ]
+        },
+        {
+            "id" : "brin-de-toilette-poils-court-grand-chien",
+            "number" : "three",
+            "type" : "Grand chien",
+            "taille" : "Chien de 45cm à 60cm",
+            "prix" : "40€",
+            "exemple" : "Exemple : Berger Australien ",
+            "lien" : "",
+            "soins" : "Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, le bain, et le séchage.",
+            "extra" : ["Un supplément de 5€ à 15€ peut vous être demandé dans la cas suivant : <br>", "- présence des parasites <br>", "- pelage très très emmêler<br>", "- chien agressif<br>", "- soin spécifique nécessaire" ]
+        },
+        {
+            "id" : "brin-de-toilette-poils-court-tres-grand-chien",
+            "number" : "four",
+            "type" : "Très grand chien",
+            "taille" : "Chien de +60cm",
+            "prix" : "50€",
+            "exemple" : "Exemple : Berger Blanc Suisse",
+            "lien" : "",
+            "soins" : "Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, le bain, et le séchage.",
+            "extra" : ["Un supplément de 5€ à 15€ peut vous être demandé dans la cas suivant : <br>", "- présence des parasites <br>", "- pelage très très emmêler<br>", "- chien agressif<br>", "- soin spécifique nécessaire" ]
+        }
+    ],
+    "long" : [
+        {
+            "id" : "brin-de-toilette-poils-long-petit-chien",
+            "number" : "one",
+            "type" : "Petit chien",
+            "taille" : "Chien de moins de 35cm",
+            "prix" : "30€",
+            "exemple" : "Exemple : Coton Tulear",
+            "lien" : "",
+            "soins" : "Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, le bain, et le séchage.",
+            "extra" : ["Un supplément de 5€ à 15€ peut vous être demandé dans la cas suivant : <br>", "- présence des parasites <br>", "- pelage très très emmêler<br>", "- chien agressif<br>", "- soin spécifique nécessaire" ]
+        },
+        {
+            "id" : "brin-de-toilette-poils-long-moyen-chien",
+            "number" : "two",
+            "type" : "Moyen chien",
+            "taille" : "Chien de 35cm à 45cm",
+            "prix" : "40€",
+            "exemple" : "Exemple : Cocker",
+            "lien" : "",
+            "soins" : "Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, le bain, et le séchage.",
+            "extra" : ["Un supplément de 5€ à 15€ peut vous être demandé dans la cas suivant : <br>", "- présence des parasites <br>", "- pelage très très emmêler<br>", "- chien agressif<br>", "- soin spécifique nécessaire" ]
+        },
+        {
+            "id" : "brin-de-toilette-poils-long-grand-chien",
+            "number" : "three",
+            "type" : "Grand chien",
+            "taille" : "Chien de 45cm à 60cm",
+            "prix" : "50€",
+            "exemple" : "Exemple : Berger Australien ",
+            "lien" : "",
+            "soins" : "Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, le bain, et le séchage.",
+            "extra" : ["Un supplément de 5€ à 15€ peut vous être demandé dans la cas suivant : <br>", "- présence des parasites <br>", "- pelage très très emmêler<br>", "- chien agressif<br>", "- soin spécifique nécessaire" ]
+        },
+        {
+            "id" : "brin-de-toilette-poils-long-tres-grand-chien",
+            "number" : "four",
+            "type" : "Très grand chien",
+            "taille" : "Chien de +60cm",
+            "prix" : "60€",
+            "exemple" : "Exemple : Berger Blanc Suisse",
+            "lien" : "",
+            "soins" : "Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, le bain, et le séchage.",
+            "extra" : ["Un supplément de 5€ à 15€ peut vous être demandé dans la cas suivant : <br>", "- présence des parasites <br>", "- pelage très très emmêler<br>", "- chien agressif<br>", "- soin spécifique nécessaire" ]
+        }
+    ]
+}

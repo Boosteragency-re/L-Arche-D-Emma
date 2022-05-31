@@ -1,0 +1,205 @@
+@import url(animation.css);
+.prestations--main {
+    max-width: 1500px;
+    margin: auto;
+}
+.prestations-img {
+    z-index: -1;
+    height: 350px;
+    background: url(../images/pexels-lumn-406014.jpg);
+    background-size: cover;
+    background-position: bottom center;
+}
+.prestations__wrapper {
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    z-index: 1;
+    padding: 0px 20px;
+}
+.prestations__container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    align-items: center;
+}
+.prestations--prev {
+    text-decoration: none;
+    color: black;
+    box-shadow: 2px 3px 20px 5px #e7e7e7;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+}
+.prestations--prev:hover .prestations--check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: check;
+    animation-duration: 1000ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction: initial;
+    animation-fill-mode: both;
+}
+.prestations--prev:hover .check {
+    animation-name: check_rotating;
+    animation-duration: 1000ms;
+    animation-delay: 500ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction: initial;
+    animation-fill-mode: both;
+}
+.prestations--prev:hover .prestations--price {
+    animation-name: price-sliding;
+    animation-duration: 1000ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction: initial;
+    animation-fill-mode: both;
+}
+.prestations--check {
+    display: none;
+    z-index: 1;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    width: 50px;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #94b5a3;
+    animation-name: check_sliding;
+    animation-duration: 1000ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction: initial;
+    animation-fill-mode: both;
+}
+.check {
+    z-index: 2;
+    color: white;
+    right: 12px;
+    top: 22px;
+    font-size: 25px;
+}
+.prestations--text {
+    width: 100%;
+    overflow: hidden;
+}
+.prestations--container {
+    display: flex;
+    justify-content: space-between;
+}
+.prestations--bold {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0px 0px 10px;
+}
+.prestations--light {
+    margin: 10px 0px 10px 10px;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    max-width: calc(100% - 3rem);
+    cursor: pointer;
+}
+.prestations--price {
+    width: 3rem;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.prestations--name {
+    display: block;
+    margin: 0px;
+    width: 100px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #94b5a3;
+}
+.prestations--name h3 {
+    font-weight: lighter;
+    margin-bottom: 0px;
+    font-size: 20px;
+    width: max-content;
+}
+.prestations--title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.prestations--title h2 {
+    font-size: 35px;
+    margin-top: 50px;
+}
+.prestations__loader--one {
+    animation-name: menu_loading-one;
+    animation-duration: 2000ms;
+    animation-delay: 300ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction: initial;
+    animation-fill-mode: both;
+}
+.prestations__loader--two {
+    animation-name: menu_loading-two;
+    animation-duration: 2000ms;
+    animation-delay: 500ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction: initial;
+    animation-fill-mode: both;
+}
+.prestations__loader--three {
+    animation-name: menu_loading-three;
+    animation-duration: 2000ms;
+    animation-delay: 700ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction: initial;
+    animation-fill-mode: both;
+}
+.prestations__loader--four {
+    animation-name: menu_loading-four;
+    animation-duration: 2000ms;
+    animation-delay: 900ms;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction: initial;
+    animation-fill-mode: both;
+}
+.down {
+    font-size: 15px;
+}
+.up {
+    font-size: 15px;
+}
+.prestations--details {
+    font-size: 13px;
+    margin: 10px;
+    margin-right: 50px;
+}
+
+.details--hidden {
+    margin: 10px 0px 10px 10px;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    max-width: calc(100% - 3rem);
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
