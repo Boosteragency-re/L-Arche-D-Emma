@@ -1,15 +1,15 @@
 class Prestations {
 
     constructor(data) {
-       this.toilettage = data.toilettage;
-       this.court = data.court;
-       this.long = data.long;
+       this.bain = data.bain;
+       this.tonte = data.tonte;
+       this.coupe = data.coupe;
     }
 
     display() {
-        this.displayAll(this.toilettage, "toilettage")
-        this.displayAll(this.court, "court")
-        this.displayAll(this.long, "long")
+        this.displayAll(this.bain, "bain")
+        this.displayAll(this.tonte, "tonte")
+        this.displayAll(this.coupe, "coupe")
     }
 
     displayAll(el, item) {
@@ -26,16 +26,14 @@ class Prestations {
             extras += item
         })
         return  `
-        <div class="prestations--prev prestations__loader--${el.number}">
+        <div class="prestations--prev prestations__loader">
             <div class="prestations--container">
                 <div class="prestations--text">
-                    <p class="prestations--bold">${el.type}</p>
+                    <p class="prestations--bold">${el.race}</p>
                     <div class="prestations--wrapper">
                         <p class="prestations--light" data-toggle="collapse" data-target="#${el.id}">Plus de détails <i class="fa-solid fa-angle-down down"></i></p>
                         <div class="collapse" id="${el.id}">
                             <p class="prestations--details">
-                            ${el.taille}. <br>
-                            ${el.exemple} <br>
                             ${el.soins} <br>
                             </p>
                             <p class="prestations--details">${extras}</p>

@@ -117,6 +117,7 @@
     margin-bottom: 10px;
     font-size: 18px;
     font-weight: bold;
+    margin-right: 25px;
 }
 .prestations--name {
     display: block;
@@ -141,37 +142,10 @@
     font-size: 35px;
     margin-top: 50px;
 }
-.prestations__loader--one {
-    animation-name: menu_loading-one;
+.prestations__loader {
+    animation-name: menu_loading;
     animation-duration: 2000ms;
     animation-delay: 300ms;
-    animation-timing-function: ease;
-    animation-iteration-count: 1;
-    animation-direction: initial;
-    animation-fill-mode: both;
-}
-.prestations__loader--two {
-    animation-name: menu_loading-two;
-    animation-duration: 2000ms;
-    animation-delay: 500ms;
-    animation-timing-function: ease;
-    animation-iteration-count: 1;
-    animation-direction: initial;
-    animation-fill-mode: both;
-}
-.prestations__loader--three {
-    animation-name: menu_loading-three;
-    animation-duration: 2000ms;
-    animation-delay: 700ms;
-    animation-timing-function: ease;
-    animation-iteration-count: 1;
-    animation-direction: initial;
-    animation-fill-mode: both;
-}
-.prestations__loader--four {
-    animation-name: menu_loading-four;
-    animation-duration: 2000ms;
-    animation-delay: 900ms;
     animation-timing-function: ease;
     animation-iteration-count: 1;
     animation-direction: initial;
@@ -203,3 +177,32 @@
 .hidden {
     display: none;
 }
+
+/* .maintenance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 100vh;
+    background: url(../images/pexels-lumn-406014.jpg);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+}
+
+.maintenance-back {
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.maintenance p {
+    font-size: 25px;
+    margin: 15px;
+    text-align: center;
+} */

@@ -10,13 +10,13 @@
 @keyframes loader {
     0% {
         transform: scale(1);
-        opacity: .85;
+        opacity: 1;
         z-index: 5555;
     }
     50% {
         transform: scale(1.2);
         z-index: 5555;
-        opacity: .50;
+        opacity: 1;
     }
     100% {
         transform: scale(1);
@@ -56,52 +56,7 @@
     }
 }
 
-@keyframes menu_loading-one {
-    0% {
-        opacity: 0;
-        transform: scale(1);
-    }
-    50% {
-        opacity: .85;
-        transform: scale(1.01);
-    }
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
-
-@keyframes menu_loading-two {
-    0% {
-        opacity: 0;
-        transform: scale(1);
-    }
-    50% {
-        opacity: .85;
-        transform: scale(1.01);
-    }
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
-
-@keyframes menu_loading-three {
-    0% {
-        opacity: 0;
-        transform: scale(1);
-    }
-    50% {
-        opacity: .85;
-        transform: scale(1.01);
-    }
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
-
-@keyframes menu_loading-four {
+@keyframes menu_loading {
     0% {
         opacity: 0;
         transform: scale(1);

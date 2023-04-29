@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FED6QB6ZTM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FED6QB6ZTM');
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link href="./css/fontawesome.css" rel="stylesheet">
+    <meta title="L'Arche D'Emma">
+    <meta name="description" content=" L’arche d’Emma est une entreprise de service animalier tel que salon de toilettage, gardiennage et vente d’accessoires et croquettes. La petite entreprise a pour but de promouvoir le bien être animale via des produits et soins de qualités ainsi que des conseils personnalisés.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/d1e0f869f0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/prestations.css">
     <link rel="stylesheet" href="./css/animation.css">
-    <link rel="icon" type="image/x-icon" href="./images/favicon.jpg">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
     <title>L'Arche D'Emma</title>
 </head>
 <body>
     <div class="loading">
         <img src="./images/Logo.png" alt="Logo">
         <i class="fas fa-sync loading__spinner"></i>
+    </div>
+    <div id="cookies">
+        <p>En poursuivant votre navigation, sans changer les paramètres de votre navigateur, vous acceptez l'utilisation de cookies pour garantir une bonne expérience sur notre site. <a href="./html/mention-legales.html">En savoir plus.</a></p>
+        <button id="cookies-btn">Accepter</button>
     </div>
     <header>
         <div class="logo-wrapper">
@@ -52,8 +65,9 @@
         <section class="cover">
             <div class="cover-img"></div>
             <div class="cover-container">
-                <p class="cover-text">Votres salon de toilettage... et bien plus</p>
-                <button class="btn-reserver"><a href="./html/prestations.html">Réserver</a></button>
+                <h1 class="cover-text">Votres salon de toilettage... et bien plus</h1>
+                <button><a target="_blank" rel="noopener noreferrer" href="https://tapstyle.net/booking/larchedemma">Réserver</a></button>
+                <!-- <button class="btn-reserver"><a href="./html/prestations.html"></a></button> -->
             </div>
         </section>
         <section class="prestations">
@@ -61,24 +75,27 @@
             <div class="prestations-main-container">
                 <div class="prestations-div">
                     <div class="prestations-container">
-                        <img src="images/toilettage-complet.jpg" alt="">
+                        <img src="images/toilettage-complet.jpg" alt="Toilettage Complet">
                         <h3 class="prestations-heading">Toilettage complet</h3>
                         <p class="prestations-text">Pour un toutou tout neuf</p>
                     </div>
                     <div class="prestations-container">
-                        <img src="images/brin-de-toilette.jpg" alt="">
+                        <img src="images/brin-de-toilette.jpg" alt="Brin de Toilette">
                         <h3 class="prestations-heading">Brin de toilette</h3>
                         <p class="prestations-text">L'essentiel du toilettage</p>
                     </div>
                 </div>
                 <div class="prestations-div">
-                    <div class="prestations-container">
-                        <img src="images/garde-danimaux.jpg" alt="">
+                    <div class="prestations-container ">
+                        <div class="indispo">
+                            <p >Momentanément indisponible</p>
+                        </div>
+                        <!-- <img src="images/garde-danimaux.jpg" alt="Garde d'animaux"> -->
                         <h3 class="prestations-heading">Garde d'animaux</h3>
                         <p class="prestations-text">Visite et promenade quotidienne</p>
                     </div>
                     <div class="prestations-container">
-                        <img src="images/toilettage-a-domicile.jpg" alt="">
+                        <img src="images/toilettage-a-domicile.jpg" alt="Toilettage à domicile">
                         <h3 class="prestations-heading">Toilettage a domicile</h3>
                         <p class="prestations-text">Uniquement 2 mardi par mois</p>
                     </div>
@@ -87,7 +104,7 @@
             <button class="btn-voirplus"><a href="./html/prestations.html">Voir plus</a></button>
         </section>
         <section class="propos">
-            <img src="images/emma-et-mollie.JPG" alt="Emma et Mollie" id="emma">
+            <img src="./images/emma-et-mollie.jpeg" alt="Emma et Mollie" id="emma">
             <div class="propos-text">
                 <h2>A propos de moi</h2> 
                 <p>“Je m'appelle Emma et voici ma chienne Mollie, mon inspiration principale pour créer mon entreprise. Après avoir longtemps cherché un toiletteur canin bienveillant dans le sud de l'ile qui n'est pas overbooké sur 6 mois, je me suis lancée le défi d'utiliser toutes mes compétences déjà acquises pendant ma prépa véto et mes diverses formations dans le domaine animalier pour ouvrir mon entreprise de services auprès des animaux domestiques. Ma priorité est de répondre aux besoins de mes clients et de leurs animaux.”</p>
@@ -96,41 +113,24 @@
         <section class="clients">
             <h2 class="clients-heading">Nos Clients</h2>
             <div class="clients-container">
-                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/p/CK0xE-Jl14w/"><img src="./images/IMG_1018.jpg" alt="" class="clients-img"></a>
-                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/p/CTL8i98D8kB/"><img src="./images/IMG_3693.jpg" alt="" class="clients-img"></a>
-                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/p/CPdM3wpl3bh/"><img src="./images/3CDE6D0D-5E33-4897-9904-63AE5FB4138C.JPG" alt="" class="clients-img"></a>
-                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/p/CNblRdfD3ox/"><img src="./images/9371390E-01D4-44E2-8976-2057F1148D66.JPG" alt="" class="clients-img"></a>
-                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/p/CPUzTRYlymN/"><img src="./images/IMG_2334.jpg" alt="" class="clients-img"></a>
+                <img src="./images/IMG_1018.jpg" alt="Maos" class="clients-img">
+                <img src="./images/IMG_3693.jpg" alt="Arka" class="clients-img">
+                <img src="./images/3CDE6D0D-5E33-4897-9904-63AE5FB4138C.jpeg" alt="Paco" class="clients-img">
+                <img src="./images/9371390E-01D4-44E2-8976-2057F1148D66.jpeg" alt="Inna" class="clients-img">
+                <img src="./images/IMG_2334.jpg" alt="Kiwi" class="clients-img">
             </div>
-        </section>
-        <section class="clients-mobile">
-            <h2 class="clients-heading">Nos Clients</h2>
-            <div id="slideshow" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./images/IMG_1018.jpg" alt="" class="d-block w-100 slideshow-img">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./images/IMG_3693.jpg" alt="" class="d-block w-100 slideshow-img">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./images/3CDE6D0D-5E33-4897-9904-63AE5FB4138C.JPG" alt="" class="d-block w-100 slideshow-img">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./images/9371390E-01D4-44E2-8976-2057F1148D66.JPG" alt="" class="d-block w-100 slideshow-img">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./images/IMG_2334.jpg" alt="" class="d-block w-100 slideshow-img">
-                  </div>
+            <div class="carousel">
+                <div class="slides">
+                    <img src="./images/IMG_1018.jpg" alt="Maos" class="clients-img slide">
+                    <img src="./images/IMG_3693.jpg" alt="Arka" class="clients-img slide">
+                    <img src="./images/3CDE6D0D-5E33-4897-9904-63AE5FB4138C.jpeg" alt="Paco" class="clients-img slide">
+                    <img src="./images/9371390E-01D4-44E2-8976-2057F1148D66.jpeg" alt="Inna" class="clients-img slide">
+                    <img src="./images/IMG_2334.jpg" alt="Kiwi" class="clients-img slide">
                 </div>
-                <!-- <a class="carousel-control-prev" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a> -->
+                <div class="controls">
+                  <div class="control prev-slide"><i class="fa-solid fa-circle-chevron-left control-icon"></i></div>
+                  <div class="control next-slide"><i class="fa-solid fa-circle-chevron-right control-icon"></i></div>
+                </div>
             </div>
         </section>
         <section class="avis">
@@ -170,9 +170,7 @@
             <div class="horaires-text">
                 <h2>Horaires</h2>
                 <p>Mardi - Vendredi <br>
-                    8h30 - 16h30 <br>
-                    Samedi <br>
-                    8h30 - 12h30
+                    8h30 - 16h <br>
                 </p>
             </div>
         </div>
@@ -255,10 +253,15 @@
                 <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/larchedemma"><i class="facebook fa-brands fa-facebook-square"></i></a>
             </div>
             <p class="legal"><a href="./html/mention-legales.html">Mentions Légales</a></p>
-            <p>©2022 L'Arche D'Emma. Propulser par <a target="_blank" rel="noopener noreferrer" href="https://www.booster-digital-agency.com">Booster Agency</a></p>
+            <p>©2023 L'Arche D'Emma. </p>
+            <p>Développer par <a id="booster" target="_blank" rel="noopener noreferrer" href="https://www.boosteragency.re"><img id="logo-booster" src="../images/Logo Booster Agency White Small.png" alt="Logo Booster Agency"></a></p>
         </div>
     </footer>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="./javascript/main.js" type="module"></script>
-    <script src="./javascript/contact.js"></script>
 </body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-52H25H5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 </html>

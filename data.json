@@ -1,140 +1,536 @@
 {
-    "toilettage" : [
+    "bain" : [
         {
-            "id" : "toilettage-complet-petit-chien",
+            "id" : "akita-inu",
             "number" : "one",
-            "type" : "Petit chien",
-            "taille" : "Chien de moins de 35cm",
-            "prix" : "40€",
-            "exemple" : "Exemple : Coton Tulear",
-            "lien" : "",
-            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, le bain, le séchage et la coupe ou la tonte.",
-            "extra" : []
-        },
-        {
-            "id" : "toilettage-complet-moyen-chien",
-            "number" : "two",
-            "type" : "Moyen chien",
-            "taille" : "Chien de 35cm à 45cm",
-            "prix" : "50€",
-            "exemple" : "Exemple : Cocker",
-            "lien" : "",
-            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, le bain, le séchage et la coupe ou la tonte.",
-            "extra" : []
-        },
-        {
-            "id" : "toilettage-complet-grand-chien",
-            "number" : "three",
-            "type" : "Grand chien",
-            "taille" : "Chien de 45cm à 60cm",
+            "race" : "Akita Inu",
             "prix" : "70€",
-            "exemple" : "Exemple : Berger Australien ",
-            "lien" : "",
-            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, le bain, le séchage et la coupe ou la tonte.",
-            "extra" : []
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- Chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
         },
         {
-            "id" : "toilettage-complet-tres-grand-chien",
-            "number" : "four",
-            "type" : "Très grand chien",
-            "taille" : "Chien de +60cm",
+            "id" : "akita-americain",
+            "number" : "one",
+            "race" : "Akita Americain",
             "prix" : "80€",
-            "exemple" : "Exemple : Berger Blanc Suisse",
-            "lien" : "",
-            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, le bain, le séchage et la coupe ou la tonte.",
-            "extra" : []
-        }
-    ],
-    "court" : [
-        {
-            "id" : "brin-de-toilette-poils-court-petit-chien",
-            "number" : "one",
-            "type" : "Petit chien",
-            "taille" : "Chien de moins de 35cm",
-            "prix" : "20€",
-            "exemple" : "Exemple : Coton Tulear",
-            "lien" : "",
-            "soins" : "Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, le bain, et le séchage.",
-            "extra" : ["Un supplément de 5€ à 15€ peut vous être demandé dans la cas suivant : <br>", "- présence des parasites <br>", "- pelage très très emmêler<br>", "- chien agressif<br>", "- soin spécifique nécessaire" ]
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- Chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
         },
         {
-            "id" : "brin-de-toilette-poils-court-moyen-chien",
+            "id" : "berger-blanc-suisse",
             "number" : "two",
-            "type" : "Moyen chien",
-            "taille" : "Chien de 35cm à 45cm",
-            "prix" : "30€",
-            "exemple" : "Exemple : Cocker",
-            "lien" : "",
-            "soins" : "Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, le bain, et le séchage.",
-            "extra" : ["Un supplément de 5€ à 15€ peut vous être demandé dans la cas suivant : <br>", "- présence des parasites <br>", "- pelage très très emmêler<br>", "- chien agressif<br>", "- soin spécifique nécessaire" ]
+            "race" : "Berger Blanc Suisse",
+            "prix" : "70€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
         },
         {
-            "id" : "brin-de-toilette-poils-court-grand-chien",
+            "id" : "berger-australien",
             "number" : "three",
-            "type" : "Grand chien",
-            "taille" : "Chien de 45cm à 60cm",
-            "prix" : "40€",
-            "exemple" : "Exemple : Berger Australien ",
-            "lien" : "",
-            "soins" : "Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, le bain, et le séchage.",
-            "extra" : ["Un supplément de 5€ à 15€ peut vous être demandé dans la cas suivant : <br>", "- présence des parasites <br>", "- pelage très très emmêler<br>", "- chien agressif<br>", "- soin spécifique nécessaire" ]
+            "race" : "Berger Australien",
+            "prix" : "65€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
         },
         {
-            "id" : "brin-de-toilette-poils-court-tres-grand-chien",
+            "id" : "berger-allemand",
             "number" : "four",
-            "type" : "Très grand chien",
-            "taille" : "Chien de +60cm",
-            "prix" : "50€",
-            "exemple" : "Exemple : Berger Blanc Suisse",
-            "lien" : "",
-            "soins" : "Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, le bain, et le séchage.",
-            "extra" : ["Un supplément de 5€ à 15€ peut vous être demandé dans la cas suivant : <br>", "- présence des parasites <br>", "- pelage très très emmêler<br>", "- chien agressif<br>", "- soin spécifique nécessaire" ]
-        }
-    ],
-    "long" : [
-        {
-            "id" : "brin-de-toilette-poils-long-petit-chien",
-            "number" : "one",
-            "type" : "Petit chien",
-            "taille" : "Chien de moins de 35cm",
-            "prix" : "30€",
-            "exemple" : "Exemple : Coton Tulear",
-            "lien" : "",
-            "soins" : "Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, le bain, et le séchage.",
-            "extra" : ["Un supplément de 5€ à 15€ peut vous être demandé dans la cas suivant : <br>", "- présence des parasites <br>", "- pelage très très emmêler<br>", "- chien agressif<br>", "- soin spécifique nécessaire" ]
+            "race" : "Berger Allemand",
+            "prix" : "75€/85€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
         },
         {
-            "id" : "brin-de-toilette-poils-long-moyen-chien",
-            "number" : "two",
-            "type" : "Moyen chien",
-            "taille" : "Chien de 35cm à 45cm",
+            "id" : "bouledogue-francais",
+            "number" : "five",
+            "race" : "Bouledogue Francais",
+            "prix" : "70€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "bouledogue-anglais-americain",
+            "number" : "six",
+            "race" : "Bouledogue Anglais/Americain",
+            "prix" : "45€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "border-collie",
+            "number" : "seven",
+            "race" : "Border Collie",
+            "prix" : "50€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "boxer",
+            "number" : "eight",
+            "race" : "Boxer",
+            "prix" : "45€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "bull-terrier-bully",
+            "number" : "nine",
+            "race" : "Bull Terrier / Bully",
+            "prix" : "35€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "bichon",
+            "number" : "ten",
+            "race" : "Bichon",
+            "prix" : "35€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "caniche-nain",
+            "number" : "eleven",
+            "race" : "Caniche nain",
+            "prix" : "35€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "cavalier-king-charles",
+            "number" : "twelve",
+            "race" : "Cavalier King Charles",
+            "prix" : "35€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "cane-corso",
+            "number" : "thirteen",
+            "race" : "Cane Corso",
+            "prix" : "55€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "chihuahua",
+            "number" : "fourteen",
+            "race" : "Chihuahua",
+            "prix" : "25€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "chow-chow",
+            "number" : "fifteen",
+            "race" : "Chow-Chow",
+            "prix" : "70€/80€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "cocker",
+            "number" : "sixteen",
+            "race" : "Cocker",
             "prix" : "40€",
-            "exemple" : "Exemple : Cocker",
-            "lien" : "",
-            "soins" : "Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, le bain, et le séchage.",
-            "extra" : ["Un supplément de 5€ à 15€ peut vous être demandé dans la cas suivant : <br>", "- présence des parasites <br>", "- pelage très très emmêler<br>", "- chien agressif<br>", "- soin spécifique nécessaire" ]
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
         },
         {
-            "id" : "brin-de-toilette-poils-long-grand-chien",
-            "number" : "three",
-            "type" : "Grand chien",
-            "taille" : "Chien de 45cm à 60cm",
-            "prix" : "50€",
-            "exemple" : "Exemple : Berger Australien ",
-            "lien" : "",
-            "soins" : "Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, le bain, et le séchage.",
-            "extra" : ["Un supplément de 5€ à 15€ peut vous être demandé dans la cas suivant : <br>", "- présence des parasites <br>", "- pelage très très emmêler<br>", "- chien agressif<br>", "- soin spécifique nécessaire" ]
+            "id" : "coton-de-tulear",
+            "number" : "seventeen",
+            "race" : "Coton de Tuléar",
+            "prix" : "35€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
         },
         {
-            "id" : "brin-de-toilette-poils-long-tres-grand-chien",
-            "number" : "four",
-            "type" : "Très grand chien",
-            "taille" : "Chien de +60cm",
+            "id" : "colley",
+            "number" : "eighteen",
+            "race" : "Colley",
+            "prix" : "75€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "golden-retriever",
+            "number" : "nineteen",
+            "race" : "Golden Retriever",
+            "prix" : "70€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "griffon-moyen",
+            "number" : "nineteen",
+            "race" : "Griffon Moyen",
+            "prix" : "40€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "griffon-grand",
+            "number" : "nineteen",
+            "race" : "Griffon Grand",
             "prix" : "60€",
-            "exemple" : "Exemple : Berger Blanc Suisse",
-            "lien" : "",
-            "soins" : "Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, le bain, et le séchage.",
-            "extra" : ["Un supplément de 5€ à 15€ peut vous être demandé dans la cas suivant : <br>", "- présence des parasites <br>", "- pelage très très emmêler<br>", "- chien agressif<br>", "- soin spécifique nécessaire" ]
-        }
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "husky",
+            "number" : "twenty",
+            "race" : "Husky",
+            "prix" : "60€/70€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "labrador",
+            "number" : "twenty-one",
+            "race" : "Labrador",
+            "prix" : "55€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "malinois",
+            "number" : "twenty-two",
+            "race" : "Malinois",
+            "prix" : "55€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "pekinois",
+            "number" : "twenty-three",
+            "race" : "Pékinois",
+            "prix" : "35€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "pinscher",
+            "number" : "twenty-four",
+            "race" : "Pinscher",
+            "prix" : "20€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "pomsky",
+            "number" : "twenty-five",
+            "race" : "Pomsky",
+            "prix" : "40€/50€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "royal-bourbon",
+            "number" : "twenty-six",
+            "race" : "Royal Bourbon",
+            "prix" : "Sur devis",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "samoyede",
+            "number" : "twenty-seven",
+            "race" : "Samoyede",
+            "prix" : "80€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "shi-tzu",
+            "number" : "twenty-eight",
+            "race" : "Shi-Tzu",
+            "prix" : "35€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "shiba-inu",
+            "number" : "twenty-nine",
+            "race" : "Shiba Inu",
+            "prix" : "45€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "spitz-nain",
+            "number" : "thirty",
+            "race" : "Spitz Nain",
+            "prix" : "35€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "staffie",
+            "number" : "thirty-one",
+            "race" : "Staffie",
+            "prix" : "30€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "teckel",
+            "number" : "thirty-two",
+            "race" : "Teckel",
+            "prix" : "30€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "yorkshire",
+            "number" : "thirty-three",
+            "race" : "Yorkshire",
+            "prix" : "30€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "westie",
+            "number" : "thirty-four",
+            "race" : "Westie",
+            "prix" : "35€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        }    
+    ],
+    "tonte" : [
+        {
+            "id" : "bichon-tonte",
+            "number" : "one",
+            "race" : "Bichon",
+            "prix" : "45€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain, le séchage et la tonte.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "caniche-nain-tonte",
+            "number" : "two",
+            "race" : "Caniche nain",
+            "prix" : "45€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain, le séchage et la tonte.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "cavalier-king-charles-tonte",
+            "number" : "three",
+            "race" : "Cavalier King Charles",
+            "prix" : "45€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain, le séchage et la tonte.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "cocker-tonte",
+            "number" : "four",
+            "race" : "Cocker",
+            "prix" : "50€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain, le séchage et la tonte.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "coton-de-tulear-tonte",
+            "number" : "five",
+            "race" : "Coton de Tuléar",
+            "prix" : "45€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain, le séchage et la tonte.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "griffon-moyen-tonte",
+            "number" : "nineteen",
+            "race" : "Griffon Moyen",
+            "prix" : "55€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage et la tonte.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "griffon-grand-tonte",
+            "number" : "nineteen",
+            "race" : "Griffon Grand",
+            "prix" : "70€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage et la tonte.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "pekinois-tonte",
+            "number" : "six",
+            "race" : "Pékinois",
+            "prix" : "40€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain, le séchage et la tonte.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "royal-bourbon-tonte",
+            "number" : "seven",
+            "race" : "Royal Bourbon",
+            "prix" : "Sur devis",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain, le séchage et la tonte.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "shi-tzu-tonte",
+            "number" : "eight",
+            "race" : "Shi-Tzu",
+            "prix" : "45€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain, le séchage et la tonte.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "teckel-tonte",
+            "number" : "nine",
+            "race" : "Teckel",
+            "prix" : "40€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain, le séchage et la tonte.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "yorkshire-tonte",
+            "number" : "ten",
+            "race" : "Yorkshire",
+            "prix" : "40€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain, le séchage et la tonte.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "westie-tonte",
+            "number" : "eleven",
+            "race" : "Westie",
+            "prix" : "45€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain, le séchage et la tonte.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        } 
+    ],
+    "coupe" : [
+        {
+            "id" : "bichon-coupe",
+            "number" : "one",
+            "race" : "Bichon",
+            "prix" : "45€/50€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain, le séchage et la coupe.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "caniche-nain-coupe",
+            "number" : "two",
+            "race" : "Caniche nain",
+            "prix" : "45€/50€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain, le séchage et la coupe.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "cavalier-king-charles-coupe",
+            "number" : "three",
+            "race" : "Cavalier King Charles",
+            "prix" : "45€/50€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain, le séchage et la coupe.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "chihuahua-coupe",
+            "number" : "four",
+            "race" : "Chihuahua",
+            "prix" : "35€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain, le séchage et la coupe.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "cocker-coupe",
+            "number" : "five",
+            "race" : "Cocker",
+            "prix" : "60€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain, le séchage et la coupe.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "coton-de-tulear-coupe",
+            "number" : "six",
+            "race" : "Coton de Tuléar",
+            "prix" : "45€/50€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain, le séchage et la coupe.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "griffon-moyen-coupe",
+            "number" : "seven",
+            "race" : "Griffon Moyen",
+            "prix" : "65€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage et la coupe.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "griffon-grand-coupe",
+            "number" : "nineteen",
+            "race" : "Griffon Grand",
+            "prix" : "80€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain et le séchage et la coupe.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "pekinois-coupe",
+            "number" : "seven",
+            "race" : "Pékinois",
+            "prix" : "45€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain, le séchage et la coupe.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "pomsky-coupe",
+            "number" : "seven",
+            "race" : "Pomsky",
+            "prix" : "60€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain, le séchage et la coupe.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "royal-bourbon-coupe",
+            "number" : "eight",
+            "race" : "Royal Bourbon",
+            "prix" : "Sur devis",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain, le séchage et la coupe.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "shi-tzu-coupe",
+            "number" : "nine",
+            "race" : "Shi-Tzu",
+            "prix" : "45€/50€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain, le séchage et la coupe.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "spitz-nain-coupe",
+            "number" : "ten",
+            "race" : "Spitz Nain",
+            "prix" : "45€/50€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain, le séchage et la coupe.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "teckel-coupe",
+            "number" : "eleven",
+            "race" : "Teckel",
+            "prix" : "40€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain, le séchage et la coupe.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "yorkshire-coupe",
+            "number" : "twelve",
+            "race" : "Yorkshire",
+            "prix" : "45€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain, le séchage et la coupe.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        },
+        {
+            "id" : "westie-coupe",
+            "number" : "thirteen",
+            "race" : "Westie",
+            "prix" : "45€/50€",
+            "soins" : " Ce soin comprends le brossage, le nettoyage des oreilles et des yeux, la coupe des griffes, le bain, le séchage et la coupe.",
+            "extra" : ["Un supplément peut vous être demandé dans la cas suivant : <br>", "- chien difficile à partir de 10€ <br>", "- Shampooing anti-parasitaire à partir de 10€ <br>", "- Le démêlage/débourrage de + 15 mins est en supplément de 30€ la demi heure <br>", "- Les prix peuvent variés en fonctions des difficultés recontrés lors du toilettage"]
+        } 
     ]
 }
